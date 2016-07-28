@@ -1,0 +1,100 @@
+@CHARSET "UTF-8";
+@CHARSET "UTF-8";
+body{
+	margin:0px auto;
+	width:860px;
+	height:100px;
+	font-size:12px;
+    background-size:100%;
+	background:("../images/map-air.jpg");
+}
+a{
+	text-decoration:none;
+	font-size:14px;
+}
+a:hover{
+	text-decoration:underline;
+}
+.end{
+	width:860px;
+	height:30px;
+	/*background:#4CB7EE;*/
+	
+}
+.air{
+	/*background:#E6F4EF;*/
+	width:180px;
+	height:18px;
+	float:left;
+	margin-top:2px;
+	text-align:left;
+	background:#7CB6CE;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.emp1{
+	width:145px;
+	height:18px;
+	float:left;
+	margin-top:2px;
+	
+}
+.emp2{
+	
+	width:145px;
+	height:18px;
+	float:left;
+	margin-top:2px;
+	
+}
+.pm{
+	/*background:orange;*/
+	width:200px;
+	height:18px;
+	float:left;
+	/* margin-left:150px; */
+	margin-top:2px;
+	text-align:center;
+	background:#7CB6CE;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.air_monitor{
+	
+    /*background:pink;*/
+	width:180px;
+	height:18px;
+	float:left;
+	margin-right:5px;
+	margin-top:2px;
+	text-align:center;
+	background:#7CB6CE;
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.DivSelect{
+    position: relative;
+    background-color: transparent;
+    height: 17px;
+    overflow: hidden; /*隐藏了小三角，宽度为比select宽度少20px*/
+    border-width:0px;
+    border-top-style: none; 
+    border-right-style: none; 
+    border-left-style: none; 
+    border-bottom-style: none;
+}
+.display{
+
+   background-color: red;
+
+}
+.pos{
+
+   font-size:20px;
+}
